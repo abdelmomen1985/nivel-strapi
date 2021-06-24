@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "strp_rooms",
+  "info": {
+    "name": "Rooms",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "json"
+    },
+    "decription_ar": {
+      "type": "richtext"
+    },
+    "decription_en": {
+      "type": "richtext"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

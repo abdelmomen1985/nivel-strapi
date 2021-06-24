@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/strp-rooms",
+      "handler": "strp-rooms.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/strp-rooms/count",
+      "handler": "strp-rooms.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/strp-rooms/:id",
+      "handler": "strp-rooms.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/strp-rooms",
+      "handler": "strp-rooms.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/strp-rooms/:id",
+      "handler": "strp-rooms.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/strp-rooms/:id",
+      "handler": "strp-rooms.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

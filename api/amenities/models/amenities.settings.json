@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "amenities",
+  "info": {
+    "name": "amenities",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description_en": {
+      "type": "richtext"
+    },
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "json"
+    },
+    "description_ar": {
+      "type": "richtext"
+    }
+  }
+}
