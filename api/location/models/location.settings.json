@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "locations",
+  "info": {
+    "name": "location",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "coordinates": {
+      "type": "json"
+    },
+    "description_en": {
+      "type": "richtext"
+    },
+    "description_ar": {
+      "type": "richtext"
+    }
+  }
+}

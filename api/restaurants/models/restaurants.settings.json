@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "strp_rooms",
+  "collectionName": "restaurants",
   "info": {
-    "name": "Rooms",
+    "name": "Restaurants",
     "description": ""
   },
   "options": {
@@ -15,13 +15,19 @@
     "name": {
       "type": "json"
     },
-    "decription_ar": {
+    "description_ar": {
       "type": "richtext"
     },
-    "decription_en": {
+    "description_en": {
       "type": "richtext"
     },
-    "images": {
+    "working_hrs_ar": {
+      "type": "richtext"
+    },
+    "working_hrs_en": {
+      "type": "richtext"
+    },
+    "media": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -32,16 +38,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "slug": {
-      "type": "string"
-    },
-    "area": {
-      "type": "integer"
-    },
-    "accessibility": {
-      "type": "boolean",
-      "default": false
     }
   }
 }

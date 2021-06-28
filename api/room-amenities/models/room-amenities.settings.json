@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "room_amenities",
+  "info": {
+    "name": "Room Amenities",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "amenitiy": {
+      "model": "amenities"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "room": {
+      "model": "strp-rooms"
+    },
+    "ext_data": {
+      "type": "json"
+    }
+  }
+}

@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "homepages",
   "info": {
-    "name": "homepage"
+    "name": "homepage",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,6 +17,21 @@
     },
     "description_en": {
       "type": "richtext"
+    },
+    "covid_modal_en": {
+      "type": "richtext"
+    },
+    "covid_modal_ar": {
+      "type": "richtext"
+    },
+    "address_ar": {
+      "type": "string"
+    },
+    "address_en": {
+      "type": "string"
+    },
+    "home_sections": {
+      "collection": "home-sections"
     }
   }
 }

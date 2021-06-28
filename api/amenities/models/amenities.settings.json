@@ -32,6 +32,13 @@
     },
     "description_ar": {
       "type": "richtext"
+    },
+    "hotel_amenity": {
+      "type": "boolean",
+      "default": true
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

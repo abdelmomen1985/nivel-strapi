@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "strp_rooms",
+  "collectionName": "home_sections",
   "info": {
-    "name": "Rooms",
-    "description": ""
+    "name": "home_sections"
   },
   "options": {
     "increments": true,
@@ -15,14 +14,14 @@
     "name": {
       "type": "json"
     },
-    "decription_ar": {
+    "description_ar": {
       "type": "richtext"
     },
-    "decription_en": {
+    "description_en": {
       "type": "richtext"
     },
-    "images": {
-      "collection": "file",
+    "media": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -32,16 +31,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "slug": {
-      "type": "string"
-    },
-    "area": {
-      "type": "integer"
-    },
-    "accessibility": {
-      "type": "boolean",
-      "default": false
     }
   }
 }
