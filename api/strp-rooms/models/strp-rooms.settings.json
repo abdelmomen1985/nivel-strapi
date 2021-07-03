@@ -15,10 +15,10 @@
     "name": {
       "type": "json"
     },
-    "decription_ar": {
+    "description_ar": {
       "type": "richtext"
     },
-    "decription_en": {
+    "description_en": {
       "type": "richtext"
     },
     "images": {
@@ -42,6 +42,12 @@
     "accessibility": {
       "type": "boolean",
       "default": false
+    },
+    "name_ar": {
+      "type": "string"
+    },
+    "name_en": {
+      "type": "string"
     }
   }
 }

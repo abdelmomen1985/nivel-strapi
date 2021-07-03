@@ -38,6 +38,15 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "name_ar": {
+      "type": "string"
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
