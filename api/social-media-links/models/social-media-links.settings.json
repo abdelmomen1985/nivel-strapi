@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_media_links",
+  "info": {
+    "name": "social_media_links"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name_en": {
+      "type": "string"
+    },
+    "name_ar": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/special-requests",
+      "handler": "special-requests.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/special-requests",
+      "handler": "special-requests.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/special-requests",
+      "handler": "special-requests.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

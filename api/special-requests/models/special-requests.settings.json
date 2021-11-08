@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "special_requests",
+  "info": {
+    "name": "special_requests"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "values_ar": {
+      "type": "json"
+    },
+    "values_en": {
+      "type": "json"
+    }
+  }
+}
