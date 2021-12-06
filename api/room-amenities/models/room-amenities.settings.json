@@ -26,6 +26,9 @@
     },
     "ext_data": {
       "type": "json"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

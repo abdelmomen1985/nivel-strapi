@@ -45,6 +45,12 @@
     },
     "name_en": {
       "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "label_first": {
+      "type": "boolean"
     }
   }
 }
