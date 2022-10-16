@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers",
+  "info": {
+    "name": "Careers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "career_email": {
+      "type": "string"
+    },
+    "content_ar": {
+      "type": "richtext"
+    },
+    "content_en": {
+      "type": "richtext"
+    }
+  }
+}
